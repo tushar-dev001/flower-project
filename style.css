@@ -1,0 +1,345 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/*------------ Banner part start --------------- */
+
+.banner {
+  width: 1920px;
+  /* height: 850px; */
+  background: rgba(229, 84, 115, 0.1);
+  display: flex;
+  /* margin-bottom: 180px;   */
+}
+
+.shop-now-btn {
+  border-radius: 8px;
+  background: #E55473;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  align-items: center;
+  gap: 10px;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.shop-now-btn:hover{
+    background-color: #e41643;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+}
+
+.banner-photo {
+  width: 635px;
+  height: 800px;
+  flex-shrink: 0;
+  padding: 50px 240px 0px 0px;
+}
+.header {
+  display: flex;
+  width: 708px;
+  height: 290px;
+  color: #272727;
+  font-family: 'Lato', sans-serif;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.beautiful_flowers_para {
+  width: 634px;
+  color: rgba(39, 39, 39, 0.6);
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.banner_left_part {
+  padding: 200px 90px 150px 240px;
+}
+/*------------ Banner part end --------------- */
+
+
+/*------------ Featured part start --------------- */
+.featured-flowers {
+  width: 1920px;
+  text-align: center;
+  margin-top: 174px;
+}
+.reatured-header {
+  color: #272727;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.reatured-para {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  margin-top: 24px;
+}
+/*------------ Featured part end --------------- */
+
+
+
+/*------------ Pink flower part start --------------- */
+.pink-flower-part {
+  display: flex;
+  padding: 50px 240px 50px 240px;
+  gap: 25px;
+  margin-top: 48px;
+}
+
+.flower-text{
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-top: 32px;
+}
+
+.flower-tree-one {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+  text-align: center;
+}
+.flower-tree-two {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+  text-align: center;
+}
+.flower-tree-three {
+  width: 464px;
+  height: 538px;
+  flex-shrink: 0;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+  text-align: center;
+}
+
+.flower-one {
+  width: 310px;
+  height: 428px;
+  padding: 110px 80px 0px 80px;
+}
+.flower-two {
+  width: 370px;
+  height: 370px;
+  padding: 120px 50px 50px 50px;
+}
+.flower-three {
+  width: 314px;
+  height: 471px;
+  padding: 70px 75px 0px 75px;
+}
+/*------------ Pink flower part end --------------- */
+
+
+
+/*------------ Delivery part start --------------- */
+.delivery-part{
+    width: 1920px;
+    height: 320px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    /* padding: 86px 175px; */
+    margin-top: 128px;
+}
+
+.delivery-text{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 24px;
+}
+/*------------ Delivery part end --------------- */
+
+
+/*------------ Hot deal part start --------------- */
+.hot-deal{
+    width: 1920px;
+    height: 620px;
+    background-color: rgba(229, 84, 115, .1);
+    display: flex;
+    align-items: center;
+}
+
+.hot-deal-left-part{
+    width: 50%;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+    color: #272727;
+    text-align: center;
+    margin-left: 30px;
+    padding: 200px 90px;
+}
+
+.hot-deal-para{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, .6);
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.hot-deal-right-part{
+    margin-left: 100px;
+}
+/*------------ Hot deal part end --------------- */
+
+
+/*------------ Instagram part start --------------- */
+.instagram-part{
+    width: 1920px;
+    text-align: center;
+    margin-top: 128px;
+    /* margin-left: 140px; */
+    margin-bottom: 48px;
+}
+.instagram-heading{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.instagram-para{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(39, 39, 39, .6);
+    margin-top: 24px;
+}
+/*------------ Instagram part end --------------- */
+
+
+/*------------ Flower Galarry part start --------------- */
+.folowers-gallary{
+    width: 1920px;
+    display: flex;
+    justify-content: center;
+    gap: 44px;
+}
+
+.loader {
+    /* border: 16px solid #f3f3f3; */
+    border-radius: 50%;
+    width: 520px;
+    height: 520px;
+    -webkit-animation: spin 10s linear infinite; /* Safari */
+    animation: spin 10s linear infinite;
+  }
+
+  /* Safari */
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+/*------------ Flower Galarry part end --------------- */
+
+
+/*------------ Latest part start --------------- */
+.latest-deal{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-top: 128px;
+}
+.latest-deal-img{
+    background-image: url('images/latest-img.png');
+    width: 1520px;
+    height: 449px;
+    margin-left: 200px;
+}
+
+.latest-deal-text{
+    padding: 10%;
+}
+
+.latest-deal-heading{
+    font-family: 'Lato', sans-serif;
+    color: #272727;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.latest-deal-para{
+    font-family: 'Lato', sans-serif;
+    color: rgba(39, 39, 39, .6);
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 48px;
+}
+
+.latest-deal-input{
+    width: 866px;
+    height: 64px;
+}
+
+.latest-deal-input:hover{
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.8);
+}
+
+.latest-deal-input::placeholder{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+/*------------ Latest part end --------------- */
+
+
+/*------------ Footer part start --------------- */
+.footer{
+    width: 1920px;
+    /* height: 449px; */
+    padding-top: 128px;
+    padding-bottom: 128px;
+    text-align: center;
+    color: white;
+    background-color: #111010;
+}
+
+.footer-heading{
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.footer-para{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.all-right-resevrd{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: rgba(244, 244, 244, .4);
+}
+/*------------ Footer part end --------------- */
